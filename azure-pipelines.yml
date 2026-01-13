@@ -9,6 +9,7 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+maven@3
 trigger:
 - main
 
