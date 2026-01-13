@@ -1,4 +1,9 @@
 # Maven
+- task: GitHubComment@0
+  inputs:
+    gitHubConnection: 'kushiroy333-hue'
+    repositoryName: 'https://github.com/kushiroy333-hue/lab.git'
+    id: 'https://github.com/kushiroy333-hue/lab.git'
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
